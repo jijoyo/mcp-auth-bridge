@@ -140,6 +140,16 @@ Reiniciá OpenCode Desktop después de configurar.
 | Browser automation | 🟡 Media | Sí, frágil |
 | **MCP Auth Bridge** | 🟢 Fácil | ✅ Sí, robusto |
 
+## Probandolo
+
+Verificado con Agensi:
+- 17 tools funcionales (`search_skills`, `get_skill`, `my_library`, `creator_status`, etc.)
+- OAuth 2.1 + PKCE (S256)
+- Tokens auto-refresh cada 55 min
+- OpenCode V2.2.0 conectado sin errores
+
+También funciona con cualquier OAuth-MCP-server (GitHub, GitLab, MCPs privados).
+
 ## Licencia
 
 MIT. Hacé lo que quieras con esto.
